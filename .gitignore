@@ -1,0 +1,31 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual Environments
+venv/
+env/
+*.env
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Dependency directories
+node_modules/
+packages/
+dist/
+build/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# System or OS-specific files
+.DS_Store
+Thumbs.db
+
+# Configuration files
+config.ini
+secrets.json
