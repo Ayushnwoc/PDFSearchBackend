@@ -30,3 +30,7 @@ Takes a pdf file as input.
 ### POST Request: `{BACKEND_URL}/answer/`
 Takes file name and question as input and returns answers of the question.
 
+## Demo Video
+
+Link: [https://drive.google.com/file/d/1o-WAmw_5xyqvAo27OR-xU8tdjiK7XRrc/view?usp=sharing]
+
