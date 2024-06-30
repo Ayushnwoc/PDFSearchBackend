@@ -10,6 +10,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 import datetime
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 
 app = FastAPI()
 load_dotenv()
@@ -97,5 +98,7 @@ async def upload_PDF(file: UploadFile = File(...), db: Session = Depends(get_db)
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-    
-    
+
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
