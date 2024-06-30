@@ -5,3 +5,5 @@ pydantic
 python-dotenv
 PyMuPDF
 langchain
+langchain_community
+
