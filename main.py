@@ -18,7 +18,7 @@ load_dotenv()
 origins = [
     "http://localhost",
     "http://localhost:3000",  # Add the frontend URL (including port) if applicable
-    "http://your-frontend-domain.com",
+    "https://pdf-search-frontend.vercel.app/",
 ]
 
 app.add_middleware(
